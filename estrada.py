@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 TOKEN = "YOUR_DISCORD_TOKEN"  # This will be set in Railway Environment Variables
 GUILD_ID = 1317544702043754516
-CATEGORY_ID = 1345500948276973618  # Replace with the Music Archives category ID
+CATEGORY_ID = 1345500948276973618  
 POST_LIMIT = 2  # Max posts per user per week
 RESET_TIME = timedelta(days=7)
 
