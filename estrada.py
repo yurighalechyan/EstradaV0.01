@@ -4,8 +4,8 @@ import asyncio
 from datetime import datetime, timedelta
 
 TOKEN = "YOUR_DISCORD_TOKEN"  # This will be set in Railway Environment Variables
-GUILD_ID = YOUR_GUILD_ID  # Replace with your server ID
-CATEGORY_ID = YOUR_CATEGORY_ID  # Replace with the Music Archives category ID
+GUILD_ID = 1317544702043754516
+CATEGORY_ID = 1345500948276973618  # Replace with the Music Archives category ID
 POST_LIMIT = 2  # Max posts per user per week
 RESET_TIME = timedelta(days=7)
 
